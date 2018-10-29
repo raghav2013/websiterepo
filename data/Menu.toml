@@ -1,6 +1,10 @@
 [about]
   Name = "about"
   URL = "/about"
+  
+[home]
+  Name = "home"
+  URL = "/home"
 
 [code]
   Name = "code"
