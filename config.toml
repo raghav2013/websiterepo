@@ -1,5 +1,5 @@
 # hostname (and path) to the root eg. http://spf13.com/
-baseurl = ""
+baseurl = "https://adoring-lalande-2a7d1a.netlify.com/"
 
 # Site title
 title = "Raghav Tech blogs"

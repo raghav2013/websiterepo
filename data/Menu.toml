@@ -1,10 +1,6 @@
 [about]
   Name = "about"
   URL = "/about"
-  
-[home]
-  Name = "home"
-  URL = "/home"
 
 [code]
   Name = "code"
@@ -15,12 +11,12 @@
   Title = "Show list of posts"
   URL = "/post"
 
-[topics]
-  Name = "topics"
-  Title = "Show list of topics"
-  URL = "/topics"
+#[topics]
+#  Name = "topics"
+#  Title = "Show list of topics"
+#  URL = "/topics"
 
-[tags]
-  Name = "tags"
-  Title = "Show list of tags"
-  URL = "/tags"
+#[tags]
+#  Name = "tags"
+#  Title = "Show list of tags"
+#  URL = "/tags"

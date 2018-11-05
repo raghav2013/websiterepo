@@ -1,6 +1,6 @@
 +++
-title = "Another Hugo Post"
-description = "Nothing special, but one post is boring."
+title = "Spring Actuator"
+description = "Spring Actuator"
 date = "2014-09-02"
 categories = [ "example", "configuration" ]
 tags = [
