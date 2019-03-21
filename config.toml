@@ -5,7 +5,7 @@ baseurl = "https://adoring-lalande-2a7d1a.netlify.com/"
 title = "Raghav Tech blogs"
 
 # Copyright
-copyright = "(c) 2015 Raghav."
+copyright = "(c) 2019 TechArch."
 
 # Language
 languageCode = "en-EN"
@@ -41,7 +41,7 @@ disqusShortname = "enten"
 [params]
     # You can use markdown here.
     brand = "Tech blogs"
-    topline = "place for sharing ideas"
+    topline = "Helpful Tech Articles"
     footline = "code with <i class='fa fa-heart'></i>"
 
     # Sidebar position
