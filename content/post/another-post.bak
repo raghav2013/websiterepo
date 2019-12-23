@@ -42,7 +42,7 @@ How would this entry's front matter look in `json`? That's easy enough to demons
 
 ```
 {
-    "title": "Another Hugo Post",
+    "title": "Another Hugo Post here",
     "description": "Nothing special, but one post is boring.",
     "date": "2014-09-02",
     "categories": [ "example", "configuration" ],
