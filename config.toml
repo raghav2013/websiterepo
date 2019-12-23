@@ -14,8 +14,8 @@ languageCode = "en-EN"
 metaDataFormat = "yaml"
 
 # theme to use (located in /themes/THEMENAME/)
-#uses hyde-v
-theme = "hyde"
+#uses hyde-y
+theme = "hydey"
 
 # pagination
 paginate = 10
