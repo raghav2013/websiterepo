@@ -1,13 +1,13 @@
 ---
 author: "Raghavendran"
-date: 2018-08-24
+date: 2020-01-01
 title: Kubernetes
 description: "Kubernetes - Getting Started"
 topics:
   - topic 1
 tags:
-  - one
-  - two
+#  - one
+#  - two
 draft: false
 ---
 
@@ -21,7 +21,7 @@ Kubernetes is also referred to as k8s, as there are 8 characters between k and s
 
 Kubernetes is highly inspired by the Google Borg system, which we will explore in this chapter. It is an open source project written in the Go language, and licensed under the Apache License Version 2.0.
 
-Kubernetes was started by Google and, with its v1.0 release in July 2015, Google donated it to the Cloud Native Computing Foundation (CNCF). We will talk more about CNCF later in this chapter.
+Kubernetes was started by Google and, with its v1.0 release in July 2015, Google donated it to the Cloud Native Computing Foundation (CNCF). We will talk more about CNCF later.
 
 Generally, Kubernetes has new releases every three months. The current stable version is 1.9 (as of February 2018).
 
