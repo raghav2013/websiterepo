@@ -1,8 +1,8 @@
 ---
 author: "Raghavendran"
 date: 2020-01-01
-title: Kubernetes
-description: "Kubernetes - Getting Started"
+title: Spring boot application monitoring in Kubernetes
+description: "Spring boot application monitoring in Kubernetes using Prometheus"
 topics:
   - topic 1
 tags:
@@ -11,19 +11,45 @@ tags:
 draft: false
 ---
 
-According to the Kubernetes website,
+Spring boot is widely popular in microservices world as it integrates and provides a number of services like data source, security  and also provides the flexibility to override the defaults 
 
-"Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications."
+Docker provides a uniform  environment to run the applications. So these days, we see the application be it Springboot  or Dot NET being packaged as docker images
 
-Kubernetes comes from the Greek word κυβερνήτης:, which means helmsman or ship pilot. With this analogy in mind, we can think of Kubernetes as the manager for shipping containers.
+The next step on application management  is to provide an environment for automating deployment, scaling, and management of containerized applications. Kubernetes fits the bill quite nicely here
 
-Kubernetes is also referred to as k8s, as there are 8 characters between k and s.
+Kubernetes is supported  on Azure, AWS and other popular cloud platforms 
 
-Kubernetes is highly inspired by the Google Borg system, which we will explore in this chapter. It is an open source project written in the Go language, and licensed under the Apache License Version 2.0.
+We often feel the need to monitor the application we deploy so as to gain useful insights on performance, and ultimately focus on improvement
 
-Kubernetes was started by Google and, with its v1.0 release in July 2015, Google donated it to the Cloud Native Computing Foundation (CNCF). We will talk more about CNCF later.
+In this article, I will provide example of a Spring Boot application deployed in kubernetes cluster as a Service that exposes Prometheus metrics that will be consumed by prometheus montitor also deployed as a Kubernetes Service
 
-Generally, Kubernetes has new releases every three months. The current stable version is 1.9 (as of February 2018).
+
+Components that we need to build
+
+1. Basic Spring boot application that includes spring bott actuator and prometheus dependency
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+		<!-- Micrometer Prometheus registry -->
+		<dependency>
+			<groupId>io.micrometer</groupId>
+			<artifactId>micrometer-registry-prometheus</artifactId>
+		</dependency>
+
+Code for the above can be found at https://github.com/raghav2013/prometheus_demo
+
+2. Docker File that packages the application 
+
+3. Define Kubernetes Service and Deployment files for deployment to Kubernetes cluster (minikube or Cloud) 
+
+4. Deploy Prometheus Kubernetes service with appropriate configuration to access the spring boot application endpoint
+
+
+
+
+
 
 
 
