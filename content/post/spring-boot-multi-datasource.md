@@ -17,5 +17,9 @@ Spring does offer automatic configuration by providing sensible defaults. One of
 
 In this case, you have to define the configuration and Spring boot would detect that configuration and you have the flexiblity to maintain different configurations
 
-To be continued
+Below is an example of a spring boot application that connects to two different postgres databases
 
+The configuration classes under com.simplidata.multidbconfig.config provide for configuring multiple datasouces
+
+The code can be downloaded from github at https://github.com/raghav2013/spring-multi-db-config
+    
