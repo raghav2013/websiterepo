@@ -1,8 +1,8 @@
 ---
 author: "Raghavendran"
-date: 2020-23-02
+date: 2019-09-17
 title: Spring boot multiple datasource configuration
-description: "Spring boot multiple datasource configuration"
+description: "Spring boot application monitoring in Kubernetes using Prometheus"
 topics:
   - topic 1
 tags:
