@@ -15,7 +15,7 @@ metaDataFormat = "yaml"
 
 # theme to use (located in /themes/THEMENAME/)
 #uses hyde-y
-theme = "hydey"
+theme = "hydey1"
 
 # pagination
 paginate = 10
