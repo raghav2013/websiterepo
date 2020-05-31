@@ -2,9 +2,9 @@
   Name = "about me"
   URL = "/about"
 
-[code]
-  Name = "code"
-  URL = "/code"
+#[code]
+ #Name = "code"
+ #URL = "/code"
 
 [posts]
   Name = "posts"
