@@ -92,9 +92,12 @@ After you login, you can push the spring boot application image using docker pus
 
         example: docker push docker062218/spring-boot-actuator-enabled-demo:tagname
 
-* Set up single node cluster in minikube
+* Set up single node cluster in minikube, install kubectl
 
-You can follow the guide at https://kubernetes.io/docs/setup/learning-environment/minikube/ to install minikube
+You can follow the guide at https://kubernetes.io/docs/setup/learning-environment/minikube/ to install minikube 
+<br>
+For kubectl, please follow - https://kubernetes.io/docs/tasks/tools/install-kubectl/
+
 
 
 * Define the kubernetes deployment and service objects
@@ -144,6 +147,13 @@ The deployment and service object definition can be found under kube-deploy fold
                port: 9000
                targetPort: 8080
            type: NodePort
+
+
+
+We deploy the deployment and service objects into cluster by using the following kubectl commands
+
+1. kubectl apply -f deployment.yaml
+2. kubectl apply -f app-service.yaml
 
 
 Here we are running the service using NodePort. You can access the service by running the following command
