@@ -102,25 +102,33 @@ You can follow the guide at https://kubernetes.io/docs/setup/learning-environmen
 
 The deployment and service object definition can be found under kube-deploy folder at https://github.com/raghav2013/prometheus_demo
 
-        Deployment definition
+        **Deployment definition**
 
-        apiVersion: v1
-        kind: Service
+        apiVersion: apps/v1
+        kind: Deployment
         metadata:
-          name: app-service
+          name: spring-boot-actuator-demo
           labels:
-            app: app-service
-        spec:
-          selector:
             app: springbootactuator
-          ports:
-            - name: web
-              port: 9000
-              targetPort: 8080
-          type: NodePort
+        spec:
+          replicas: 3
+          selector:
+            matchLabels:
+              app: springbootactuator
+          template:
+            metadata:
+              labels:
+                app: springbootactuator
+            spec:
+              containers:
+              - name: springbootactuator
+                image: docker062218/spring-boot-actuator-enabled-demo:v1
+                ports:
+                - name: web
+                  containerPort: 8080
 
 
-         Service Definition
+         **Service Definition**
 
          apiVersion: v1
          kind: Service
