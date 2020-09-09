@@ -34,8 +34,10 @@ agile development principles
 
 <br>
 
+Resume - https://drive.google.com/file/d/1Rd3B3UtItWezsLl3O7S_ealsAnNYLDy7/view?usp=sharing
 
 
+<br>
 
 
 ## Skills
