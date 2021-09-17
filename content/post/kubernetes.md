@@ -18,7 +18,7 @@ Docker provides a uniform  environment to run the applications. So these days, w
 
 The next step on application management  is to provide an environment for automating deployment, scaling, and management of containerized applications. Kubernetes fits the bill quite nicely here
 
-Kubernetes is supported  on Azure, AWS and other popular cloud platforms 
+Kubernetes is supported  on Azure, AWS , Google and other popular cloud platforms 
 
 We often feel the need to monitor the application we deploy so as to gain useful insights on performance, and ultimately focus on improvement
 
