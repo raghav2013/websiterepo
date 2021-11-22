@@ -34,7 +34,9 @@ agile development principles
 
 <br>
 
-Resume - https://drive.google.com/file/d/1Rd3B3UtItWezsLl3O7S_ealsAnNYLDy7/view?usp=sharing
+Resume - https://docs.google.com/document/d/1_UdAUQO-ftCiP59iEj0e2dQI5DhZO-q5/edit?usp=sharing&ouid=107277539644771822156&rtpof=true&sd=true
+
+
 
 
 <br>
