@@ -11,7 +11,7 @@ aliases:
 
 
 
-Thorough Software Professional with 19 years of experience in application
+Thorough Software Professional with 20 years of experience in application
 development across the following areas
 
 ● Application Architecture
