@@ -11,7 +11,7 @@ aliases:
 
 
 
-Thorough Software Professional with 20 years of experience in application
+Thorough Software Professional with 23 years of experience in application
 development across the following areas
 
 ● Application Architecture
@@ -44,5 +44,5 @@ Resume - https://docs.google.com/document/d/1_UdAUQO-ftCiP59iEj0e2dQI5DhZO-q5/ed
 
 ## Skills
 
-{{< labels java   spring boot     spring-core   spring-security   docker   kubernetes   aws azure      jenkins agile   ajax    angular     continuous deployment   css   git   github   html   jquery   json   junit   linux   maven   gradle   mongodb   mysql   node   nosql   npm   php   responsive-design   rest   scrum   sql   ubuntu   uml     web-services   xml >}}
+{{< labels java   spring boot     spring-core   spring-security   docker   kubernetes   aws azure  serverless    jenkins agile   ajax    angular     continuous deployment   css   git   github   html   jquery   json   junit   linux   maven   gradle   mongodb   mysql   node   nosql   npm   php   responsive-design   rest   scrum   sql   ubuntu   uml     web-services   xml >}}
 
